@@ -1,0 +1,24 @@
+{
+  "name": "mongo-express-app",
+  "version": "1.0.0",
+  "description": "A bsic mongodb express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "node",
+    "nodemon",
+    "routes"
+  ],
+  "author": "Mwero Abdalla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0"
+  }
+}
